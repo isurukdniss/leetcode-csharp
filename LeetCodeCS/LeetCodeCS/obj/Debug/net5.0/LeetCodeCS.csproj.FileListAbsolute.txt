@@ -1,0 +1,16 @@
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.exe
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.deps.json
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.runtimeconfig.json
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.runtimeconfig.dev.json
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.dll
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\ref\LeetCodeCS.dll
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\bin\Debug\net5.0\LeetCodeCS.pdb
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.csproj.AssemblyReference.cache
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.AssemblyInfoInputs.cache
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.AssemblyInfo.cs
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.csproj.CoreCompileInputs.cache
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.dll
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\ref\LeetCodeCS.dll
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.pdb
+C:\1__Isuru\Github\Leetcode\LeetCodeCS\LeetCodeCS\obj\Debug\net5.0\LeetCodeCS.genruntimeconfig.cache
