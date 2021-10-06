@@ -15,9 +15,9 @@ namespace LeetCodeCS.Array.TwoSum
                 return null;
             }
 
-            for (int i = 0; i < a.Length - 2; i++)
+            for (int i = 0; i < a.Length - 1; i++)
             {
-                for (int j = i + 1; j < a.Length - 1; j++)
+                for (int j = i + 1; j < a.Length; j++)
                 {
                     int remainder = t - a[i];
                     if (a[j] == remainder)
@@ -26,6 +26,29 @@ namespace LeetCodeCS.Array.TwoSum
                     }
                 }
             }
+            return null;
+        }
+
+        public int[] TwoSumOptimized(int[] nums, int target)
+        {
+            if (nums.Length <= 1)
+            {
+                return null;
+            }
+
+            var d = new Dictionary<int, int>();
+
+            for (int i = 0; i < nums.Length; i++)
+            {
+                int r = target - nums[i];
+                if (d.ContainsKey(r))
+                {
+                    return new int[] { d[r], i };
+                }
+
+                d[nums[i]] = i;
+            }
+
             return null;
         }
     }

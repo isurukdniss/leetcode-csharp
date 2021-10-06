@@ -1,13 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using LeetCodeCS.Array.TwoSum;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace LeetCodeTests.Array.TwoSum.Test
 {
     [TestClass]
-    public class TwoSumTest
+    public class TwoSumOptimizedTest
     {
         [TestMethod]
-        public void TestTwoSumBruteForceHappyPath()
+        public void TestTwoSumOptimizedHappyPath()
         {
             // Arrange
             int[] a = { 2, 3, 7, 6, 4 };
@@ -16,7 +20,7 @@ namespace LeetCodeTests.Array.TwoSum.Test
             LeetCodeCS.Array.TwoSum.TwoSum ts = new LeetCodeCS.Array.TwoSum.TwoSum();
 
             // Act
-            int[] result = ts.TwoSumBruteForce(a, target);
+            int[] result = ts.TwoSumOptimized(a, target);
 
 
             // Assert
@@ -24,7 +28,7 @@ namespace LeetCodeTests.Array.TwoSum.Test
         }
 
         [TestMethod]
-        public void TestTwoSumBruteForceHappyPath2()
+        public void TestTwoSumOptimizedHappyPath2()
         {
             // Arrange
             int[] a = { 3, 2, 4 };
@@ -33,7 +37,7 @@ namespace LeetCodeTests.Array.TwoSum.Test
             LeetCodeCS.Array.TwoSum.TwoSum ts = new LeetCodeCS.Array.TwoSum.TwoSum();
 
             // Act
-            int[] result = ts.TwoSumBruteForce(a, target);
+            int[] result = ts.TwoSumOptimized(a, target);
 
 
             // Assert
@@ -41,7 +45,7 @@ namespace LeetCodeTests.Array.TwoSum.Test
         }
 
         [TestMethod]
-        public void TestTwoSumBruteForceEdgeCases1()
+        public void TestTwoSumOptimizedEdgeCases1()
         {
             // Arrange
             int[] a = { };
@@ -49,14 +53,14 @@ namespace LeetCodeTests.Array.TwoSum.Test
             LeetCodeCS.Array.TwoSum.TwoSum ts = new LeetCodeCS.Array.TwoSum.TwoSum();
 
             // Act
-            int[] result = ts.TwoSumBruteForce(a, target);
+            int[] result = ts.TwoSumOptimized(a, target);
 
             // Assert
             Assert.IsNull(result);
         }
 
         [TestMethod]
-        public void TestTwoSumBruteForceEdgeCases2()
+        public void TestTwoSumOptimizedEdgeCases2()
         {
             // Arrange
             int[] a = { 9 };
@@ -64,22 +68,22 @@ namespace LeetCodeTests.Array.TwoSum.Test
             LeetCodeCS.Array.TwoSum.TwoSum ts = new LeetCodeCS.Array.TwoSum.TwoSum();
 
             // Act
-            int[] result = ts.TwoSumBruteForce(a, target);
+            int[] result = ts.TwoSumOptimized(a, target);
 
             // Assert
             Assert.IsNull(result);
         }
 
         [TestMethod]
-        public void TestTwoSumBruteForceEdgeCases3()
+        public void TestTwoSumOptimizedEdgeCases3()
         {
             // Arrange
-            int[] a = { 9 , 1, 4, 3 };
+            int[] a = { 9, 1, 4, 3 };
             int target = 9;
             LeetCodeCS.Array.TwoSum.TwoSum ts = new LeetCodeCS.Array.TwoSum.TwoSum();
 
             // Act
-            int[] result = ts.TwoSumBruteForce(a, target);
+            int[] result = ts.TwoSumOptimized(a, target);
 
             // Assert
             Assert.IsNull(result);
